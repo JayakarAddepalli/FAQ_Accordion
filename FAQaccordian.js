@@ -150,7 +150,7 @@ else if(window.screen.availWidth <= 768){
     // console.log('object');
     let button1 = document.getElementById('butn1');
     let cb1 = 0;
-    console.log(button1);
+    //console.log(button1);
 
     let contentacc1 = document.getElementById('para1');
     // console.log(contentacc1.textContent);
@@ -179,7 +179,7 @@ else if(window.screen.availWidth <= 768){
 
 
     button1.addEventListener('click',()=>{
-        console.log('work');
+        //console.log('work');
 
         cb2 = 0
         cb3 = 0
