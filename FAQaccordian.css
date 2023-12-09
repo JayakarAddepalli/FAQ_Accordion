@@ -67,11 +67,10 @@ hr{
         margin: 0px;
         width: 90%;
         height: auto;
-        position: fixed;
+        position: absolute;
         left: 5%;
         right: 5%;
         top: 20%;
-        overflow:scroll;
         /* display: none; */
     }
 
