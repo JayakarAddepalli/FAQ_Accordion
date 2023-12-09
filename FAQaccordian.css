@@ -71,6 +71,7 @@ hr{
         left: 5%;
         right: 5%;
         top: 20%;
+        overflow:scroll;
         /* display: none; */
     }
 
