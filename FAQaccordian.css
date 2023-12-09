@@ -1,0 +1,96 @@
+*{
+    background-color: rgb(245, 234, 255);
+}
+
+header>nav>img{
+    width: 100%;
+}
+
+main>div>div>h1{
+    font-size: 45px;
+}
+
+.cd1{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    height: auto;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+}
+
+.accord1>p, .accord2>p, .accord3>p, .accord4>p{
+    display: none;
+    background-color: white;
+    color: rgb(172, 172, 172);
+}
+
+hr{
+    background-color: white;
+}
+
+.smSrc{
+    display: none;
+}
+
+.larScr{
+    display: block;
+}
+
+@media only screen and (max-width:768px){
+
+    .smSrc{
+        display: block;
+    }
+    
+    .larScr{
+        display: none;
+    }
+
+    header, nav{
+        background-color: aqua;
+    }
+    
+    .image1{
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+
+    
+    .cd1{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        width: 90%;
+        height: auto;
+        position: fixed;
+        left: 5%;
+        right: 5%;
+        top: 20%;
+        /* display: none; */
+    }
+
+    .star{
+        transform: scale(0.6,0.6);
+        /* margin: 0px;
+        padding: 0px; */
+    }
+    
+    .faqhead{
+        font-size: 37px;
+    }
+
+    .accord1>p, .accord2>p, .accord3>p, .accord4>p{
+        display: none;
+        background-color: white;
+        color: rgb(172, 172, 172);
+    }
+    
+    hr{
+        background-color: white;
+    }
+}
